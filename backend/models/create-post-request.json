@@ -1,0 +1,19 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "title": "createPost",
+    "type": "object",
+    "properties": {
+      "caption": {
+        "type": "string"
+      },
+      "isPublic": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "caption",
+      "isPublic"
+    ],
+    "additionalProperties": false
+}
+  
